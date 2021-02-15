@@ -51,10 +51,15 @@ function App() {
 
   return (
     <div className="App"
-    >
+    ><div className="container">
+      <h1>Hand pose Recognizer</h1>
+      <p>Please wait for 30-60s for modules to load</p>
+      <p>might lag in between</p>
+      </div>
       
       <Webcam ref={webcamRef}
           style={{
+            
             position: "absolute",
             marginLeft: "auto",
             marginRight: "auto",
@@ -83,7 +88,8 @@ function App() {
             height: 480,
           }}
         />
-    </div>
+        </div>
+    
   );
 }
 
