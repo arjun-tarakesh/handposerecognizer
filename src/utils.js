@@ -74,7 +74,7 @@ const fingerJoints = {
           const y = landmarks[i][1];
           // Start drawing
           ctx.beginPath();
-          ctx.arc(x, y, style[i]["size"], 2, 3 * Math.PI);
+          ctx.arc(x, y, style[i]["size"], 0, 3 * Math.PI);
   
           // Set line color
           ctx.fillStyle = style[i]["color"];

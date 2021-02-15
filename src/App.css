@@ -3,9 +3,26 @@
 .container{
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+  
+  padding: -50px;
   
   
 }
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
 
+.Button{
+  margin: 10px;
+  padding: 9px;
+  background-color: #0D0D0D;
+}
+
+a{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
 

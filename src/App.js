@@ -54,7 +54,9 @@ function App() {
     ><div className="container">
       <h1>Hand pose Recognizer</h1>
       <p>Please wait for 30-60s for modules to load</p>
-      <p>might lag in between</p>
+      <p>(might lag in between)</p>
+      <button className="Button"><a href="https://github.com/tensorflow/tfjs-models/tree/master/handpose" target="_blank">TensorFlowJS model</a></button>
+      <button className="Button"><a href="https://github.com/arjun-tarakesh/handposerecognizer" target="_blank">Github Repo</a></button>
       </div>
       
       <Webcam ref={webcamRef}
